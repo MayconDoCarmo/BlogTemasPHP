@@ -1,5 +1,7 @@
 <?php 
   include_once("helpers/url.php");
+  include_once("data/categories.php");
+  include_once("data/posts.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,17 +16,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <a href="<?php $BASE_URL ?>" id="logo">
+  <header class="header">
+    <a href="<?php $BASE_URL ?>" class="logo">
       <img src="<?php $BASE_URL ?>img/logo.svg" alt="Blog Sem Money">
     </a>
-    <nav>
+    <nav class="nav-menu">
       <ul>
         <li><a href="<?php $BASE_URL ?>">Home</a></li>
         <li><a href="#">Categorias</a></li>
         <li><a href="#">Sobre</a></li>
-        <li><a href="<?php $BASE_URL ?>">contact.php</a></li>
+        <li><a href="<?php $BASE_URL ?>">Contato</a></li>
       </ul>
     </nav>
   </header>
-  <h1>header template</h1>
+
