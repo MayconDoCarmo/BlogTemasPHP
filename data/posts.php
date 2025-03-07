@@ -24,9 +24,9 @@
     ],
     [
       'id' => 4,
-      'title' => 'Programando em PHP',
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-      'tags' => ['programação', 'PHP', 'lógica de programação'],
+      'title' => 'Programando em React',
+      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de React!',
+      'tags' => ['programação', 'React', 'lógica de programação'],
       'img' => 'prog-4.jpg'
     ],
   ];

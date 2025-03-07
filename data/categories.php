@@ -1,11 +1,7 @@
 <?php
 
-  $categories = [
-    'PHP',
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'Bootstrap',
-    'Java',
-    'C#'
+  $categories = [ ['PHP', 'HTML', 'CSS',],
+                  ['Java', 'Backend', 'MVC'],
+                  ['Programação', 'Portugol', 'Lógica de Programação'],
+                  ['React', 'JavaScrpit', 'Node.js']
   ];
