@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Separa os itens nas extremidades */
+  padding: 20px;
+  background: #161616;
+}
+
+.logo {
+  align-self: flex-start;
+}
+.logo img {
+  width: 50px;
+  /* height: 30px; */
+}
+
+.nav-menu {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li {
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+.nav-menu a {
+  color: #fff;
+  transition: 0.5s;
+  font-size: 14px;
+}
+.nav-menu a:hover {
+  color: #999;
+}
