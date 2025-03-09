@@ -1,0 +1,12 @@
+.title-container {
+  min-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+}
+.title-container h1 {
+  font-size: 58px;
+}
+.title-container p {
+  margin-top: 10px;
+}
