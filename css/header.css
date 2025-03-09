@@ -1,21 +1,19 @@
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Separa os itens nas extremidades */
   padding: 20px;
   background: #161616;
+  justify-content: center;
 }
-
-.logo {
-  align-self: flex-start;
+.logo{
+ position: absolute;
+ left: 9.5vh;
 }
 .logo img {
-  width: 50px;
-  /* height: 30px; */
+  width: 60px;
 }
 
 .nav-menu {
-  flex: 1;
   display: flex;
   justify-content: center;
 }
@@ -37,4 +35,31 @@ header {
 }
 .nav-menu a:hover {
   color: #999;
+}
+
+.btn-mobile {
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width:1024px ){
+  header{
+    justify-content: space-around;
+  }
+  .logo{
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-menu ul {
+    flex-direction: column;
+    display: none;
+  }
+  .btn-mobile{
+    display: block;
+  }
+  .nav-menu.active ul{
+
+  }
 }
