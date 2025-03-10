@@ -22,8 +22,10 @@
       <img src="<?php $BASE_URL ?>img/logo.svg" alt="Blog Sem Money">
     </a>
     <nav class="nav-menu" id="nav-menu">
-      <button class="btn-mobile" id="btn-mobile"></button>
-      <ul>
+      <button class="btn-mobile" id="btn-mobile" aria-label="Abrir Menu" aria-expanded="false" aria-haspopup="true" aria-controls="menu">
+        <span class="hamburguer"></span>
+      </button>
+      <ul id="menu" role="menu">
         <li><a href="<?php $BASE_URL ?>">Home</a></li>
         <li><a href="#">Categorias</a></li>
         <li><a href="#">Sobre</a></li>
