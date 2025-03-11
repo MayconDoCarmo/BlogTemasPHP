@@ -9,4 +9,61 @@
 }
 .title-container p {
   margin-top: 10px;
+  text-transform: uppercase;
+  color: #999;
+}
+.posts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-box:first-child {
+  min-width: 90%;
+}
+
+.post-box {
+  flex: 1 1 0;
+  margin: 0 1%;
+  margin-bottom: 20px;
+}
+.post-box img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  margin: 0.625rem 0;
+}
+.post-title a {
+  color: #000;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+.post-title a:hover {
+  color: #999;
+}
+
+.post-description {
+  color: #666;
+}
+
+.tags-container {
+  margin-top: 10px;
+  display: flex;
+}
+
+.tags-container a {
+  font-size: 0.875rem;
+  color: #333;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.post-box li {
+  margin-bottom: 5px;
 }
