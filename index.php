@@ -10,12 +10,15 @@
       <?php $i = 0; foreach($posts as $post): ?>
         <div class="post-box">
           <img src="<?php print_r($BASE_URL) ?>/img/<?php echo $post['img']?>" alt="<?php $post['title'] ?>">
-          <h2><a href="<?php $BASE_URL ?>post.php?id=<?php $post['id'] ?>"><?php echo $post['title']?></a></h2>
-          <p><?php echo $post['description'] ?></p>
+          <h2 class="post-title"><a href="<?php echo $BASE_URL . "/post.php?id=" . $post['id'] ?>"><?php echo $post['title']?></a></h2>
+          <p class="post-description"><?php echo $post['description'] ?></p>
+          <ul class="tags-container">
+          <?php $tags = $post['tags'];?>
+            <?php foreach($tags as $tecnologia):?>
+            <li><a href=""><?php echo $tecnologia ?></a></li>
+            <?php endforeach; ?>
+          </ul>
         </div>
-        <ul class="tags-container">
-          <li><?php print_r(implode("  ", $categories[$i]))?></li>
-        </ul >
       <?php $i++; endforeach; ?>
     </section>
   </main>
