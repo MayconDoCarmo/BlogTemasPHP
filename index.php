@@ -12,7 +12,7 @@
           <img src="<?php print_r($BASE_URL) ?>/img/<?php echo $post['img']?>" alt="<?php $post['title'] ?>">
           <h2 class="post-title"><a href="<?php echo $BASE_URL . "/post.php?id=" . $post['id'] ?>"><?php echo $post['title']?></a></h2>
           <p class="post-description"><?php echo $post['description'] ?></p>
-          <ul class="tags-container">
+          <ul class="post-tags">
           <?php $tags = $post['tags'];?>
             <?php foreach($tags as $tecnologia):?>
             <li><a href=""><?php echo $tecnologia ?></a></li>
