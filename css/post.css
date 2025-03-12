@@ -1,0 +1,47 @@
+.post-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+  margin-top: 30px;
+}
+
+.post-headline {
+  font-size: 44px;
+  margin-top: -3px 0;
+}
+
+.post-description {
+  margin: 15px 0;
+  font-style: italic;
+}
+
+.img-container {
+  max-width: 70%;
+}
+
+.tags-title {
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  background-color: #161616;
+  padding: 9px 0;
+  margin: 10px 0px 11px 0px;
+  width: 80%;
+}
+
+.post-content {
+  margin: 35px 0px 90px 0px;
+}
+
+.links-container li {
+  margin-top: 5px;
+}
+.links-container a {
+  text-decoration: underline;
+}
+
+.links-container li:last-child {
+  margin-bottom: 30px;
+}
