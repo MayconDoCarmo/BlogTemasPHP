@@ -52,12 +52,12 @@
   color: #666;
 }
 
-.tags-container {
+.post-tags {
   margin-top: 10px;
   display: flex;
 }
 
-.tags-container a {
+.post-tags a {
   font-size: 0.875rem;
   color: #333;
   text-decoration: underline;
@@ -66,4 +66,24 @@
 
 .post-box li {
   margin-bottom: 5px;
+}
+
+@media (max-width: 560px) {
+  .title-container {
+    min-width: 300px;
+  }
+
+  .title-container h1 {
+    font-size: 2.25rem;
+  }
+
+  .posts-container {
+    padding: 20px;
+  }
+
+  .post-box {
+    flex: 100% 1 0;
+    padding-bottom: 40px;
+    margin: 0;
+  }
 }
